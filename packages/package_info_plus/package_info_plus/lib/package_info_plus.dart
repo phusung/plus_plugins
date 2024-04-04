@@ -78,7 +78,7 @@ class PackageInfo {
     }
 
     final platformData = await PackageInfoPlatform.instance.getAll(
-      baseUrl: baseUrl,
+   //   baseUrl: baseUrl,
     );
 
     _fromPlatform = PackageInfo(
